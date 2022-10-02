@@ -1,4 +1,3 @@
-# Havoc C2 Agent payload
 # Author: thec0nci3rge
 # The inline technique idea came from John Hammond's video: https://www.youtube.com/watch?v=EwEwRLedeKI
 # The original C# snipped was found here: https://github.com/tbhaxor/CSharp-and-Infosec/blob/main/PInvoke%20MSF%20Payload/Program.cs
