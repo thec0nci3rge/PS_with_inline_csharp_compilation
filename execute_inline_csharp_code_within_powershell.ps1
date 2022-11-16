@@ -19,7 +19,7 @@ class MyBusinessLogic {
     [UnmanagedFunctionPointer(CallingConvention.StdCall)]
     delegate void WindowRun();
 
-    static void Main() {
+    public static void Main() {
         // get pointer of allocated buffer
         IntPtr my_virt_alloc_pointer = VirtualAlloc(IntPtr.Zero, Convert.ToUInt32(my_buf.Length), 0x1000, 0x40);
         
