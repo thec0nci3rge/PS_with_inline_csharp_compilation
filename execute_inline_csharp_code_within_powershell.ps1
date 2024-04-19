@@ -6,7 +6,7 @@ $MyBusinessLogic = @"
 using System;
 using System.Runtime.InteropServices;
 
-class MyBusinessLogic {
+public class MyBusinessLogic {
     static byte[] my_buf = new byte[<PUT_YOUR_SHELLCODE_LENGTH_HERE>] {
         <PUT_YOUR_SHELLCODE_HERE - e.g. "0x39,0xc0,0x73,0x1d,0x8b,...">
     };
